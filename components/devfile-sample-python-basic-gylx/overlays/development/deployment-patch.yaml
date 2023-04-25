@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-gylx
+  namespace: dfodor-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/dfodor-tenant/firstapp/devfile-sample-python-basic-gylx@sha256:a2ef5e6e4d04464dcadf09707250b6337bd39c6828f1740d9b9f977af05ad0c4
+        name: my-python
+        resources: {}
+status: {}
