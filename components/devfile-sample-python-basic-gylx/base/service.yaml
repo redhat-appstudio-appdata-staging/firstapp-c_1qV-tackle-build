@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-python-basic-gylx
     app.kubernetes.io/part-of: firstapp
   name: devfile-sample-python-basic-gylx
-  namespace: dfodor-tenant
 spec:
   ports:
   - port: 8081
