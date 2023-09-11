@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-gylx
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/dfodor-tenant/firstapp/devfile-sample-python-basic-gylx@sha256:7084d6f6a42f6fa45445971abcd3329f2195de21667d11abd64d62e7739ecf5b
+      - image: quay.io/redhat-user-workloads-stage/dfodor-tenant/firstapp/devfile-sample-python-basic-gylx@sha256:a2ef5e6e4d04464dcadf09707250b6337bd39c6828f1740d9b9f977af05ad0c4
         name: my-python
         ports:
         - containerPort: 8081
